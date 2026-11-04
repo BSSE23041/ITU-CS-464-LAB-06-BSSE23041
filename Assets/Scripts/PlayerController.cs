@@ -42,7 +42,21 @@ public class PlayerController : MonoBehaviour
         // Steering is switched off for knockTime so the push isn't wiped next step.
         if (Time.time >= noControlUntil)
         {
-            Vector3 move = Vector3.ClampMagnitude(input, 1f) * speed * speedMultiplier;
+            Vector3 direction = Vector3.ClampMagnitude(input, 1f);
+
+            Transform cam = Camera.main.transform;
+
+            Vector3 forward = cam.forward;
+            Vector3 right = cam.right;
+
+            forward.y = 0f;
+            right.y = 0f;
+
+            forward.Normalize();
+            right.Normalize();
+
+            Vector3 move = (right * direction.x + forward * direction.z)
+                           * speed * speedMultiplier;
             v = new Vector3(move.x, v.y, move.z);
         }
 
