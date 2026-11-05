@@ -1384,6 +1384,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
+      propertyPath: chaseRange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
+      propertyPath: giveUpRange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
       propertyPath: points.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1592,6 +1600,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
       propertyPath: chaseRange
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
+      propertyPath: giveUpRange
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5704977566589271826, guid: 55e2caf0f823bb64faa3ffc7a636b971, type: 3}
