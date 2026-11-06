@@ -281,6 +281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2432901201733845472, guid: 45d3cb62e771bc845a5a7286f02ee72b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1151396404}
     - target: {fileID: 3501060457322616240, guid: 45d3cb62e771bc845a5a7286f02ee72b, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -1241,6 +1245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241963780ce8b7140ac376ebb4916a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
+--- !u!4 &1151396404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7497027648725633862, guid: 006685f6eb865604f8d169ba9a0efb55, type: 3}
+  m_PrefabInstance: {fileID: 1151396402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1468993426
 PrefabInstance:
   m_ObjectHideFlags: 0
