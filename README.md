@@ -1,6 +1,6 @@
 # ITU CS464 Lab 06
 ## Gameplay Video
-**Video Link:** [Add your YouTube or Google Drive link here]
+**Video Link:** [(https://youtu.be/1k1kDlBAnzw)]
 
 ## Game Levels
 
