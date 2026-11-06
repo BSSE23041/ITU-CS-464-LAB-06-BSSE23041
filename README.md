@@ -4,8 +4,6 @@
 
 ## Game Levels
 
-## Game Levels
-
 | Level | Name | Screenshot | Description | Objective |
 |---|---|---|---|---|
 | Level 01 | Arena | <img src="Docs/Level01.png" width="250"> | An open arena with guards, spikes, a crusher and power ups. | Collect all 10 coins. |
